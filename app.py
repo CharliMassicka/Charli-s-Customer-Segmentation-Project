@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Handle optional plotting libraries gracefully with helpful Streamlit messages
-try
+try:
     import matplotlib.pyplot as plt
 except ModuleNotFoundError:
     st.error("Required package 'matplotlib' is not installed. Install it with `pip install matplotlib` or add it to requirements.txt and redeploy.")
