@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Handle optional plotting libraries gracefully with helpful Streamlit messages
-try:
+try
     import matplotlib.pyplot as plt
 except ModuleNotFoundError:
     st.error("Required package 'matplotlib' is not installed. Install it with `pip install matplotlib` or add it to requirements.txt and redeploy.")
@@ -64,8 +64,8 @@ st.markdown("<div class='sub-header'>An Industry-Oriented Unsupervised Machine L
 # Required Branding & Authority Header
 st.markdown("""
 <div class='creator-badge'>
-    🎓 <b>Created by:</b> Ravi Kumar Singh <br>
-    🌐 <i>International Data Scientist & Microsoft Certified Trainer</i>
+    🎓 <b>Created by:</b> Charli Massicka Zonganzoni <br>
+    🌐 <i>Data Scientist and AI/ML Engineer</i>
 </div>
 """, unsafe_allow_html=True)
 
@@ -263,4 +263,4 @@ elif page == "Live Customer Predictor":
 
 # Footer
 st.markdown("---")
-st.markdown("<p style='text-align: center; color: gray;'>Created by <b>Ravi Kumar Singh</b> | International Data Scientist & Microsoft Certified Trainer</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: gray;'>Created by <b>Charli Massicka Zonganzoni</b> | Data Scientist and AI/ML Engineer</p>", unsafe_allow_html=True)
